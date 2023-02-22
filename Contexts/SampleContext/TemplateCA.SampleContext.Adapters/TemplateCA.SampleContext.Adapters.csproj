@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\SharedKernel\TemplateCA.SharedKernel.Extensions\TemplateCA.SharedKernel.Extensions.csproj"/>
+        <ProjectReference Include="..\TemplateCA.SampleContext.Domain\TemplateCA.SampleContext.Domain.csproj"/>
+    </ItemGroup>
+
+</Project>

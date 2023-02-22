@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentAssertions" Version="6.9.0"/>
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.4.0"/>
+        <PackageReference Include="MediatR" Version="11.1.0"/>
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0"/>
+        <PackageReference Include="xunit" Version="2.4.2"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\TemplateCA.SharedKernel.Applications\TemplateCA.SharedKernel.Applications.csproj"/>
+        <ProjectReference Include="..\TemplateCA.SharedKernel.Extensions\TemplateCA.SharedKernel.Extensions.csproj"/>
+    </ItemGroup>
+
+</Project>

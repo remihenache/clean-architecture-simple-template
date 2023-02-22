@@ -1,0 +1,19 @@
+{
+	"author": "Remi Henache",
+	"classifications": ["Common","Web"],
+	"name": "Clean architecture template",
+	"identity": "TemplateCA", 
+	"shortName": "CleanArchi", 
+	"tags": { "language": "C#", "type":"project" }, 
+	"sourceName": "TemplateCA", 
+	"preferNameDirectory" : "true" ,
+	"symbols":
+	{
+		"sampleContext": 
+		{
+		  "type": "parameter",
+		  "defaultValue": "SampleContext",
+		  "replaces":"SampleContext"
+		}
+	}
+}
